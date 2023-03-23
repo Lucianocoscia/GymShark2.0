@@ -1,0 +1,93 @@
+.container-trainers {
+  height: 100vh;
+  padding-bottom: 5%;
+  border-bottom: 1px solid #64646438;
+}
+.grid-trainers {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 10%;
+  margin-right: 10%;
+  column-gap: 5%;
+  margin-top: 4%;
+}
+.card-trainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+}
+.container-img-trainer {
+  background-image: url(./background-trainers.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.img-trainer {
+  height: 90%;
+}
+
+.container-trainers-info .linea-card {
+  background-color: #ff0336;
+  bottom: 0;
+  content: "";
+  height: 4px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  transition: all 0.4s ease-in-out;
+  width: 20%;
+}
+.linea-card:hover {
+  width: 100%;
+}
+.container-trainers-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 140px;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+.trainer-name {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.trainer-job {
+  margin-bottom: 1rem;
+}
+
+.brand-icon {
+  margin: 0.5rem;
+  color: #424542;
+  transition: all 0.4s;
+}
+.brand-icon:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+  color: #ff0336;
+}
+.button-arrow {
+  position: absolute;
+  bottom: 100px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  border: none;
+  z-index: 5;
+  background-color: #fff;
+}

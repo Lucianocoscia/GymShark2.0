@@ -1,0 +1,97 @@
+.container-classes {
+  padding-bottom: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.grid-classes {
+  display: grid;
+  grid-template-areas:
+    "ele1 ele1 ele2 ele3"
+    "ele4 ele5 ele6 ele6";
+  gap: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.grid-area {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: self-start;
+  position: relative;
+  background-position: center;
+}
+.grid-area::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+
+  z-index: 0;
+}
+.grid-area h2 {
+  color: #fff;
+  z-index: 1;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.grid-area p {
+  color: #fff;
+  padding: 1%;
+  background-color: #ff0336;
+  /* width: 65%; */
+  z-index: 1;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.grid-area-1 {
+  grid-area: ele1;
+  background-image: url(./images/carrusel12.jpg);
+}
+
+.grid-area-2 {
+  grid-area: ele2;
+  background-image: url(./images/gap.jpg);
+}
+.grid-area-3 {
+  grid-area: ele3;
+  background-image: url(./images/yoga1.png);
+}
+.grid-area-4 {
+  grid-area: ele4;
+  background-image: url(./images/calistenia2.jpg);
+}
+.grid-area-5 {
+  grid-area: ele5;
+  background-image: url(./images/jujitsu.jpg);
+}
+.grid-area-6 {
+  grid-area: ele6;
+  background-image: url(./images/funcional00.jpg);
+}
+.container-title-classes {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.title-classes {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 3%;
+}

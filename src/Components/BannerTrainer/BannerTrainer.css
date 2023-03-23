@@ -1,0 +1,22 @@
+.container-banner-trainer {
+  background-image: url(./ciclyng.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+}
+.container-banner-trainer h3 {
+  margin-top: 1%;
+}
+
+.container-banner-trainer span {
+  color: #ff0336;
+  padding-right: 20px;
+}

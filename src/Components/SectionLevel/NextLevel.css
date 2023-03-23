@@ -1,0 +1,104 @@
+.grid-about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  margin-left: 10%;
+  margin-right: 10%;
+  column-gap: 10%;
+  padding-bottom: 5%;
+}
+.grid-attributes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  column-gap: 1%;
+  margin-top: 7%;
+}
+.card-attributes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-attributes h3 {
+  text-align: center;
+}
+.icono-attribute {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 5%;
+}
+.background-title-about {
+  position: absolute;
+}
+.title-about {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 3rem;
+}
+.container-title {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+.subtitle-about {
+  font-size: 35px;
+  margin-bottom: 1rem;
+}
+.p-about {
+  color: #646464;
+}
+.button-tour {
+  cursor: pointer;
+  width: 200px;
+  height: 55px;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 600;
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  background-color: #3f3f3f;
+  transition: all 0.4s;
+  color: #fff;
+
+  margin-top: 10%;
+}
+.button-tour:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 10px;
+  left: 10px;
+  border: 1px solid rgba(63, 63, 63, 0.362);
+  transition: all 0.4s;
+  overflow: hidden;
+}
+
+.button-tour:hover:after {
+  bottom: 0px;
+  border: 1px solid #ff0336;
+
+  left: 0px;
+}
+.button-tour:hover {
+  background-color: #ff0336;
+  border: 1px solid #ff0336;
+}
+.running {
+  transform: translateX(-180%);
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+.girl {
+  position: absolute;
+  z-index: 3;
+}
+.girl-red-bg {
+  transform: translateX(10%);
+  position: relative;
+  z-index: 2;
+}

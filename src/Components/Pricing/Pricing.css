@@ -1,0 +1,56 @@
+.grid-pricing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  column-gap: 3%;
+}
+.p-pricing {
+  text-align: center;
+  padding: 1rem;
+}
+.card-pricing {
+  text-align: center;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  padding-bottom: 50px;
+  position: relative;
+}
+.img-pricing {
+  width: 100%;
+}
+.container-benefits p {
+  padding: 0.5rem;
+}
+.pricing {
+  font-size: 30px;
+  color: #424542;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.pricing p {
+  color: #000;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.pricing h2 {
+  color: #000;
+  font-size: 150%;
+}
+.title-pricing {
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #fff;
+  transform: translate(33%, -50%);
+  z-index: 0;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}

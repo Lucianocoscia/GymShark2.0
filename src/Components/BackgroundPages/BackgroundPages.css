@@ -1,0 +1,26 @@
+.background-pages {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: grayscale(1);
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1rem;
+  color: #fff;
+}
+.background-pages::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background: rgba(0, 0, 0, 0.5);
+
+  z-index: 0;
+}
+h2 {
+  z-index: 100;
+}
