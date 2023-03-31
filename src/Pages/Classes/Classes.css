@@ -1,0 +1,112 @@
+.grid-classes-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(0, 1));
+  column-gap: 2%;
+  row-gap: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+.card-classes {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: #fff;
+  align-items: start;
+  padding: 40px;
+  height: 45vh;
+  border-radius: 5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.card-classes::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 1.5rem;
+
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+
+  z-index: 0;
+}
+.flex-classes {
+  display: flex;
+  align-items: center;
+  margin-top: 4%;
+}
+.flex-classes-cardsinfo {
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+  align-items: center;
+  z-index: 2;
+}
+.flex-classes-cardsinfo i {
+  padding-right: 10px;
+  /* margin-left: 10px; */
+}
+.container-activity {
+  z-index: 2;
+  position: relative;
+  font-size: 20px;
+}
+.container-activity h2 {
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+.underline-activity {
+  position: absolute;
+  width: 3rem;
+  height: 4px;
+  top: 40px;
+  background-color: #ff0336;
+}
+
+.button-join-classes {
+  cursor: pointer;
+  margin-top: 10%;
+  width: 200px;
+  height: 55px;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 700;
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  transition: all 0.4s;
+  color: #000;
+  font-weight: bold;
+  transition: all 0.4s;
+  z-index: 2;
+}
+.button-join-classes:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 10px;
+  left: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.362);
+  transition: all 0.4s;
+  overflow: hidden;
+  z-index: -2;
+}
+.button-join-classes:hover {
+  background-color: #ff0336;
+  color: #fff;
+}
+.button-join-classes:hover:after {
+  bottom: 0px;
+  border: 1px solid #ff0336;
+
+  left: 0px;
+}

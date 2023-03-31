@@ -10,7 +10,7 @@ const CardInfo = () => {
         <div className='grid-cards-info'>
             <div className='card-info card-info-1'>
               <img className='img-card' src={progression} alt="" />
-              <h2 className='text-card'>About Us</h2>
+              <h2 className='text-card'>Progression</h2>
               <p className='text-card'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, expedita.</p>
 
             </div>

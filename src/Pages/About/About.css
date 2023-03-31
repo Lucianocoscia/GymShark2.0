@@ -1,0 +1,45 @@
+.container-level-about {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.grid-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 50vh);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+.grid {
+  padding: 5% 10% 5% 10%;
+}
+.image-about {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.image-about-1 {
+  background-image: url(./images/about4.jpg);
+}
+.image-about-2 {
+  background-image: url(./images/salon2.jpg);
+}
+
+.about-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.about-centered p {
+  width: 80%;
+  padding: 1rem;
+}
+.contenedor-icono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icono {
+  width: 128px;
+  height: 128px;
+}

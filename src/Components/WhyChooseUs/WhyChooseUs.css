@@ -29,6 +29,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  row-gap: 10%;
   margin-top: 5%;
 }
 .flex-icon-choose {
@@ -38,6 +39,14 @@
 }
 .icono-choose {
   margin-right: 5%;
+  padding: 10px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: rgb(43 43 43);
+  transition: all 0.4s;
+}
+.icono-choose:hover {
+  background-color: #ff0336;
 }
 
 .button-choose {

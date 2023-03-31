@@ -25,8 +25,8 @@ const Pricing = () => {
                 <img className='absolute' src={backtitle} alt="" />
                 <h3 className='relative'>PRICING CHART</h3>
             </div>
-            <h2 className='center'>Exclusive Pricing Plan</h2>
-            <p className='p-pricing'>Gymat an unknown printer took a galley of type and scrambled make a type specimen book.</p>
+            <h1 className='center title-principal-pricing'>Exclusive Pricing Plan</h1>
+            <p className='p-pricing'>GymShark an unknown printer took a galley of type and scrambled make a type specimen book.</p>
             <div className='grid-pricing'>
                 {
                     pricing.map((item, index) => {

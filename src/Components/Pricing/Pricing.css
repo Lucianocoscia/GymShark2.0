@@ -54,3 +54,12 @@
   margin-right: auto;
   position: absolute;
 }
+.title-principal-pricing {
+  font-size: 34px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.p-pricing {
+  margin-top: 1rem;
+  margin-bottom: 4%;
+}

@@ -21,11 +21,11 @@ const Header = () => {
 
             <nav>
               <ul className='navbar'>
-                <li><Link to={"/"}>Home</Link></li>
-                <li><Link to={"/classes"}>Classes</Link></li>
-                <li><Link to={"/schedule"}>Schedule</Link></li>
-                <li><Link to={"/about"}>About</Link></li>
-                <li><Link to={"/contact"}>Contact</Link></li>
+                <li><Link to={"/"} onClick={() => window.scrollTo(0, 0)}>Home</Link></li>
+                <li><Link to={"/classes"} onClick={() => window.scrollTo(0, 0)}>Classes</Link></li>
+                <li><Link to={"/schedule/monday"} onClick={() => window.scrollTo(0, 0)}>Schedule</Link></li>
+                <li><Link to={"/about"} onClick={() => window.scrollTo(0, 0)}>About</Link></li>
+                <li><Link to={"/contact"} onClick={() => window.scrollTo(0, 0)}>Contact</Link></li>
               </ul>
             </nav>
 

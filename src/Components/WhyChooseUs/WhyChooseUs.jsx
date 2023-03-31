@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
                 <h3 className='relative-choose'>Why choose us</h3>
             </div>
             <h2 className='title-choose'>We Can Give A Shape Of <br /> Your Body Here!</h2>
-            <p>At Gymate, we are dedicated to helping you achieve the body of your dreams. Our expert trainers and nutritionists will work with you to create a personalized fitness and nutrition plan that helps you reach your specific goals.</p>
+            <p>At GymShark, we are dedicated to helping you achieve the body of your dreams. Our expert trainers and nutritionists will work with you to create a personalized fitness and nutrition plan that helps you reach your specific goals.</p>
             <div className='grid-icons'>
                 <div className='flex-icon-choose'>
                     <img className='icono-choose' src={muscle} alt="" />
@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
                     <h3>Gym Bag <br /> Equipments</h3>
                 </div>
                 <div className='flex-icon-choose'>
-                    <img className='imiconog-choose' src={bottle} alt="" />
+                    <img className='icono-choose' src={bottle} alt="" />
                     <h3>Fresh Bottle <br /> Watter</h3>
                 </div>
 

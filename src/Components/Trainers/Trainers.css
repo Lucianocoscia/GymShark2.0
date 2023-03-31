@@ -1,7 +1,7 @@
 .container-trainers {
   height: 100vh;
-  padding-bottom: 5%;
-  border-bottom: 1px solid #64646438;
+  /* padding-bottom: 5%; */
+  /* border-bottom: 1px solid #64646438; */
 }
 .grid-trainers {
   display: grid;

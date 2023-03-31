@@ -7,6 +7,7 @@ import running1 from './images/runnnig1.png';
 import backgroundTitles from './images/background-titles.svg';
 import backRed from './images/girl-redbg.svg'
 import './NextLevel.css';
+
 const NextLevel = () => {
   return (
     <>
