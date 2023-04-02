@@ -1,0 +1,97 @@
+a,
+button {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-burger {
+  position: fixed;
+  top: 0px;
+  padding-left: 0;
+  background-color: #f8f8f8;
+
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+}
+ul {
+  padding: 0;
+}
+.navigation {
+  position: absolute;
+  right: -100%;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.navigation nav ul li {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-size: 1.5em;
+  height: 100%;
+  padding: 20px 30px;
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+
+  cursor: pointer;
+}
+.navigation nav ul li:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+.hamburger,
+.bar {
+  position: absolute;
+  z-index: 100;
+}
+
+.hamburger {
+  right: 5%;
+  top: 30px;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background: 0 0;
+  opacity: 0.7;
+  transition: all 0.4s;
+}
+.hamburger:hover {
+  opacity: 1;
+}
+.bar {
+  top: 0px;
+  background: #fff;
+  width: 100%;
+  height: 4px;
+  transition: all 0.3s ease-in;
+}
+
+#bar2 {
+  top: 8px;
+}
+
+#bar3 {
+  top: 16px;
+}
+
+.navigation.active {
+  right: 0;
+}
+
+.hamburger.open #bar1 {
+  background-color: #000;
+  transform: rotate(45deg) translate(6px, 5px);
+}
+
+.hamburger.open #bar2 {
+  background-color: transparent;
+}
+
+.hamburger.open #bar3 {
+  background-color: #000;
+  transform: rotate(-45deg) translate(6px, -5px);
+}

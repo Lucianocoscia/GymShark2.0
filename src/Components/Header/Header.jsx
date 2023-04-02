@@ -2,6 +2,8 @@ import React from 'react'
 import logo from './images/logo-oficial.png'
 import { Link } from 'react-router-dom'
 import './Header.css'
+import MenuNavbar from './MenuNavbar'
+
 const Header = () => {
 
 
@@ -18,7 +20,7 @@ const Header = () => {
         <header>
             <Link to={'/'}><img className='logo' src={logo}/></Link>
             <nav>
-              <ul className='navbar'>
+              <ul className='navbar '>
                 <li><Link to={"/"} onClick={() => window.scrollTo(0, 0)}>Home</Link></li>
                 <li><Link to={"/classes"} onClick={() => window.scrollTo(0, 0)}>Classes</Link></li>
                 <li><Link to={"/schedule/monday"} onClick={() => window.scrollTo(0, 0)}>Schedule</Link></li>
@@ -35,8 +37,7 @@ const Header = () => {
               </div>
             </div>
             <div className='burger-button-container'>
-              <button className=' burger-button fa-solid fa-bars'></button>
-
+             <MenuNavbar/>
             </div>
         </header>
 
