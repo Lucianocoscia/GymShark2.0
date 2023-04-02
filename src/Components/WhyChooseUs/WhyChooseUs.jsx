@@ -1,10 +1,10 @@
 import React from 'react'
-import backtitle from './background-titles.svg'
-import image from './pesasrusa.png'
-import bag from './bag.png'
-import bottle from './bottle.png'
-import machine from './machine.png'
-import muscle from './muscle.png'
+import backtitle from './images/background-titles.svg'
+import image from './images/pesasrusa.png'
+import bag from './images/bag.png'
+import bottle from './images/bottle.png'
+import machine from './images/machine.png'
+import muscle from './images/muscle.png'
 
 
 import './WhyChooseUs.css'

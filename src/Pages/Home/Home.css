@@ -1,7 +1,4 @@
 .background {
-  /* background-image: url(./background-section.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; */
   background-color: #f8f8f8;
 }
 .background2 {
@@ -9,8 +6,7 @@
   color: #fff;
 }
 .background3 {
-  background-image: url(./background-section3.png);
+  background-image: url(./images/background-section3.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 100vh; */
 }

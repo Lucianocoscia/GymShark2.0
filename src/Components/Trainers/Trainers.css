@@ -20,7 +20,7 @@
   background-color: #fff;
 }
 .container-img-trainer {
-  background-image: url(./background-trainers.png);
+  background-image: url(./images/background-trainers.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,6 +104,4 @@
     justify-content: center;
     text-align: center;
   }
-}
-@media screen and (max-width: 600px) {
 }

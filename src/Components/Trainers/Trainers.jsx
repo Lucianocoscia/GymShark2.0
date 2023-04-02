@@ -1,9 +1,9 @@
 import React from 'react'
 import backtitle from '../TopClasses/images/background-titles.svg'
-import Trainer1 from './trainer-man2.png'
-import Trainer2 from './trainer-man.png'
-import Trainer3 from './trainer-women.png'
-import backgroundTrainer from './background-trainers.png'
+import Trainer1 from './images/trainer-man2.png'
+import Trainer2 from './images/trainer-man.png'
+import Trainer3 from './images/trainer-women.png'
+
 import  './Trainers.css'
 const Trainers = () => {
     const trainers = [
@@ -30,7 +30,6 @@ const Trainers = () => {
                                         <div className='container-img-trainer'>
                                             <img className='img-trainer' src={trainer.img} alt="trainer" />
                    
-                                            {/* <button className='fa-solid fa-angle-up button-arrow'></button> */}
                                             <div className='container-trainers-info'>
                              
                             

@@ -7,9 +7,8 @@ import TopClasses from '../../Components/TopClasses/TopClasses'
 import Banner from '../../Components/Banner/Banner'
 import WhyChooseUs from '../../Components/WhyChooseUs/WhyChooseUs'
 import BannerTrainer from '../../Components/BannerTrainer/BannerTrainer'
-import Trainers from '../../Components/Trainers/Trainers'
+
 import { useEffect } from 'react'
-// import BannerScroll from '../../Components/BannerScroll/BannerScroll'
 import Pricing from '../../Components/Pricing/Pricing'
 
 const Home = () => {
