@@ -20,3 +20,9 @@
   color: #ff0336;
   padding-right: 20px;
 }
+@media screen and (max-width: 620px) {
+  .container-banner-trainer {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}

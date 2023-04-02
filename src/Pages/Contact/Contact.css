@@ -100,3 +100,28 @@ textarea {
 
   padding: 10px;
 }
+/* Responsive */
+@media screen and (max-width: 1023px) {
+  .grid-contact {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+  .grid-contact-2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .subgrid-contact {
+    grid-template-columns: 1fr;
+  }
+  .container-title-underline {
+    text-align: center;
+  }
+  .contact-title {
+    text-align: center;
+  }
+  .container-brand-icons-contact {
+    justify-content: center;
+  }
+}

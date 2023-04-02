@@ -1,5 +1,6 @@
 .grid-schedule {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding-top: 3%;
@@ -9,6 +10,7 @@
   text-decoration: none;
   /* background-color: #efefef; */
   border: 1px solid #d7d7d7;
+  color: #000;
 
   border-radius: 30px;
 
@@ -64,4 +66,16 @@
 }
 .container-childs {
   padding-bottom: 5%;
+}
+@media screen and (max-width: 1023px) {
+  .grid-schedule-day {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid-schedule-day {
+    grid-template-columns: 1fr;
+  }
 }

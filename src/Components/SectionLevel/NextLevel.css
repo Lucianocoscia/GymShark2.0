@@ -102,3 +102,26 @@
   position: relative;
   z-index: 2;
 }
+@media screen and (max-width: 1023px) {
+  .grid-about {
+    grid-template-columns: 1fr;
+  }
+  .flex {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid-about {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .grid-attributes {
+    grid-template-columns: 1fr;
+  }
+  .subtitle-about {
+    text-align: center;
+  }
+  .title-about {
+    padding: 0;
+  }
+}

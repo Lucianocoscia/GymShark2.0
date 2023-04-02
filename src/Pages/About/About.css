@@ -43,3 +43,23 @@
   width: 128px;
   height: 128px;
 }
+@media screen and (max-width: 1023px) {
+  .icono {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid {
+    padding: 5%;
+  }
+  .grid-options {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 2%;
+  }
+  .icono {
+    width: 80px;
+    height: 80px;
+  }
+}

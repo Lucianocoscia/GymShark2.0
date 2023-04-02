@@ -88,3 +88,40 @@
   border: 1px solid #ff0336;
   /* color: #000; */
 }
+@media screen and (max-width: 1023px) {
+  .grid-why-choose-us {
+    grid-template-columns: 1fr;
+    row-gap: 5%;
+  }
+  .flex {
+    display: none;
+  }
+  .img-choose {
+    width: 80%;
+  }
+  .img-choose-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid-why-choose-us {
+    padding-bottom: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .flex-icon-choose {
+    flex-direction: column;
+  }
+  .container-button-tour {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  .title-choose {
+    text-align: center;
+  }
+  .container-title {
+    justify-content: center;
+  }
+}

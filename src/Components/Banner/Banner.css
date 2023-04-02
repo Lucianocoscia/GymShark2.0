@@ -64,3 +64,19 @@
 
   left: 0px;
 }
+@media screen and (max-width: 1023px) {
+  .background-banner {
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    clip-path: none;
+  }
+  .title-banner {
+    font-size: 1.5rem;
+  }
+  .background-banner-bar {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+}

@@ -1,6 +1,7 @@
 footer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1.5fr 1fr 1fr;
+  column-gap: 5%;
   grid-template-rows: 1fr;
   margin-left: 10%;
   margin-right: 10%;
@@ -8,20 +9,22 @@ footer {
 }
 
 .logo-footer {
-  width: 50%;
-  /* height: 30%; */
+  width: 60%;
   overflow: hidden;
   transform: translateX(-40px);
 }
-.container-col1 {
-  padding-left: 1%;
-}
 .container-col2 {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-col3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .p-footer {
-  width: 80%;
   padding-bottom: 2%;
   line-height: 1.5;
   font-size: 15px;
@@ -35,8 +38,8 @@ footer {
   margin-right: 2%;
   margin-top: 2%;
   margin-bottom: 2%;
-  font-size: 1.5rem;
-  padding: 1.5%;
+  font-size: 1.2rem;
+  padding: 2%;
   transition: all 0.4s;
   background-color: #efefef;
   border-radius: 50%;
@@ -69,6 +72,64 @@ footer {
   width: 4rem;
   height: 4px;
   position: absolute;
-  top: 45px;
+  top: 40px;
   background-color: #ff0336;
+}
+@media screen and (max-width: 1023px) {
+  footer {
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0;
+  }
+  .logo-footer {
+    transform: translateX(-30px);
+    width: 100%;
+  }
+  .container-classes-footer {
+    padding: 0;
+  }
+  .linea-footer {
+    width: 4rem;
+    height: 4px;
+    position: absolute;
+    top: 35px;
+    background-color: #ff0336;
+  }
+}
+@media screen and (max-width: 620px) {
+  footer {
+    margin: 0;
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+  .logo-footer {
+    width: 55%;
+    transform: translateX(0px);
+  }
+  .container-col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-col2 {
+    display: none;
+  }
+  p {
+    text-align: center;
+  }
+  .container-brand-icons {
+    justify-content: center;
+    margin-bottom: 4%;
+    margin-top: 4%;
+  }
+  .container-brand-icons i {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    padding: 10%;
+    transition: all 0.4s;
+    background-color: #efefef;
+    border-radius: 50%;
+  }
 }

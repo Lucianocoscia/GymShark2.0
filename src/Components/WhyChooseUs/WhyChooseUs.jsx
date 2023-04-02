@@ -13,7 +13,7 @@ const WhyChooseUs = () => {
   return (
     <>
     <div className="grid-why-choose-us">
-        <div >
+        <div className='img-choose-container' >
             <img className='img-choose' src={image} alt="" />
             
         </div>
@@ -43,7 +43,10 @@ const WhyChooseUs = () => {
                 </div>
 
             </div>
-            <button className='button-tour'>Our classes</button>
+            <div className='container-button-tour'>
+                <button className='button-tour'>Our classes</button>
+
+            </div>
         </div>
     </div>
     </>

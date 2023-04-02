@@ -91,3 +91,19 @@
   border-top-left-radius: 10%;
   z-index: 0;
 }
+@media screen and (max-width: 1023px) {
+  .grid-cards-info {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    transform: translateY(-10%);
+  }
+  .card-info {
+    height: 300px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+  }
+}
+@media screen and (max-width: 600px) {
+}

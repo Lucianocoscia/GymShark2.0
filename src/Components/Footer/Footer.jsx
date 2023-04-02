@@ -31,18 +31,22 @@ const Footer = () => {
               <p>Full-body Strength</p>
             </div>
 
-
-          <div className='container-classes-footer'>
-              <h2 className='title-footer'>Working Hours</h2>
-              <span className='linea-footer'></span>
-              <h4>Monday - Friday:</h4>
-              <p>7:00am - 21:00pm</p>
-              <h4>Saturday:</h4>
-              <p>7:00am - 19:00pm</p>
-              <h4>Sunday - Closed</h4>
           </div>
-
+          <div className='container-col2'>
+            <div className='container-classes-footer'>
+              <div>
+                <h2 className='title-footer'>Working Hours</h2>
+                <span className='linea-footer'></span>
+              </div>
+                <h4>Monday - Friday:</h4>
+                <p>7:00am - 21:00pm</p>
+                <h4>Saturday:</h4>
+                <p>7:00am - 19:00pm</p>
+                <h4>Sunday - Closed</h4>
+            </div>
           </div>
+          
+
         
       </footer>
     </>

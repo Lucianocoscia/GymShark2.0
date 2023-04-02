@@ -110,3 +110,21 @@
 
   left: 0px;
 }
+
+/* Responsive */
+@media screen and (max-width: 1023px) {
+  .grid-classes-cards {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid-classes-cards {
+    grid-template-columns: 1fr;
+    padding-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    row-gap: 15px;
+  }
+}

@@ -17,6 +17,7 @@ import Wednesday from "./Pages/Schedule/Wednesday";
 import Thursday from "./Pages/Schedule/Thursday";
 import Friday from "./Pages/Schedule/Friday";
 import Saturday from "./Pages/Schedule/Saturday";
+
 //css
 import "./index.css";
 
@@ -24,6 +25,7 @@ function App() {
   return (
     <>
       <Header />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/classes" element={<Classes />} />

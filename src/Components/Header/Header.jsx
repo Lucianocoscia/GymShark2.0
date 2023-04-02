@@ -1,7 +1,6 @@
 import React from 'react'
 import logo from './images/logo-oficial.png'
 import { Link } from 'react-router-dom'
-
 import './Header.css'
 const Header = () => {
 
@@ -18,7 +17,6 @@ const Header = () => {
     <>
         <header>
             <Link to={'/'}><img className='logo' src={logo}/></Link>
-
             <nav>
               <ul className='navbar'>
                 <li><Link to={"/"} onClick={() => window.scrollTo(0, 0)}>Home</Link></li>
@@ -31,13 +29,17 @@ const Header = () => {
 
             <div className='lateral-nav-container'>
               <div className='user-icon'><i className='fa-regular fa-user'></i></div>
-              <div className='join-button'>
+              <div className='join-button '>
                 <i className='plus-icon fa-regular fa-plus'></i>
                 <h3 className='text-button' >Join Class Now</h3>
               </div>
             </div>
-          
+            <div className='burger-button-container'>
+              <button className=' burger-button fa-solid fa-bars'></button>
+
+            </div>
         </header>
+
     </>
   )
 }

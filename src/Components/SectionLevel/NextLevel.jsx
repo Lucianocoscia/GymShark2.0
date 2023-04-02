@@ -34,7 +34,10 @@ const NextLevel = () => {
                     <h3>FANCY GYM <br />MACHINES</h3>
                 </div>
             </div>
-            <button className='button-tour'>Take a tour </button>
+            <div className='container-button-tour'>
+                <button className='button-tour'>Take a tour </button>
+
+            </div>
         </div>
 
         <div className='flex'>
