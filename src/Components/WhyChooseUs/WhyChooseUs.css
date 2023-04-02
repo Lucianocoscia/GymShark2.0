@@ -120,8 +120,15 @@
   }
   .title-choose {
     text-align: center;
+    margin: 5%;
   }
   .container-title {
     justify-content: center;
+  }
+  .p-choose {
+    margin-bottom: 10%;
+  }
+  .grid-icons {
+    margin-bottom: 10%;
   }
 }

@@ -69,25 +69,25 @@ const Contact = () => {
               </div>
               <form action="">
                 <div>
-                  <input type="text" />
+                  <input placeholder='Ingrese su nombre' type="text" />
                   
                 </div>
                 <div>
-                  <input type="text" />
+                  <input  placeholder='Ingrese su email' type="email" />
                 </div>
                 
                 <select name="" id="">
-                <option value="">CrossFit</option>
-                  <option value="">Funcional</option>
-                  <option value="">G.A.P</option>
-                  <option value="">Musculacion</option>
-                  <option value="">Pilates</option>
-                  <option value="">Spinning</option>
-                  <option value="">Yoga</option>
-                  <option value="">Zumba</option>
+                    <option value="">CrossFit</option>
+                    <option value="">Funcional</option>
+                    <option value="">G.A.P</option>
+                    <option value="">Musculacion</option>
+                    <option value="">Pilates</option>
+                    <option value="">Spinning</option>
+                    <option value="">Yoga</option>
+                    <option value="">Zumba</option>
                 </select>
                 <div>
-                  <textarea name="" id="" cols="30" rows="5"></textarea>
+                  <textarea placeholder='Ingrese aqui su consulta' name="" id="" cols="30" rows="5"></textarea>
                 </div>
                 <div className='center'>
                   <button className='button-choose ' type="submit">Submit Now</button>
