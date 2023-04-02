@@ -124,4 +124,20 @@ textarea {
   .container-brand-icons-contact {
     justify-content: center;
   }
+  .underline {
+    position: absolute;
+    width: 5rem;
+    height: 4px;
+    top: 30px;
+    left: 130px;
+    background-color: #ff0336;
+  }
+  .underline-grid2 {
+    position: absolute;
+    width: 3.5rem;
+    height: 4px;
+    top: 40px;
+    left: 20px;
+    background-color: #ff0336;
+  }
 }
