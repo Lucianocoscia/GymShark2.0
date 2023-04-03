@@ -45,17 +45,17 @@ ul {
 }
 .hamburger,
 .bar {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   z-index: 100;
 }
 
 .hamburger {
-  right: 5%;
-  top: 30px;
+  /* right: 5%; */
+  /* top: 30px; */
   width: 30px;
   height: 30px;
   border: 0;
@@ -65,7 +65,8 @@ ul {
 }
 
 .bar {
-  top: 0px;
+  top: 3px;
+  margin-right: 2rem;
   background: #fff;
   width: 100%;
   height: 4px;
@@ -73,11 +74,11 @@ ul {
 }
 
 #bar2 {
-  top: 8px;
+  top: 11px;
 }
 
 #bar3 {
-  top: 16px;
+  top: 19px;
 }
 
 .navigation.active {
@@ -95,5 +96,5 @@ ul {
 
 .hamburger.open #bar3 {
   background-color: #000;
-  transform: rotate(-45deg) translate(6px, -5px);
+  transform: rotate(-45deg) translate(6px, -5.5px);
 }
